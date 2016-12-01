@@ -3,7 +3,7 @@ import json
 
 # The domain to crawl and number of links deep
 # More here: https://algorithmia.com/algorithms/web/SiteMap
-input = ["http://draftkings.com",10]
+input = ["https://www.draftkings.com/contest/draftteam/33247488",10]
 
 # Replace YOUR API KEY with you free Algorithmia key
 # https://algorithmia.com/signup
