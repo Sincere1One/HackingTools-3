@@ -28,7 +28,7 @@ def main():
         print(parser.usage)
         exit(0)
     else:
-        conf.interface = options.interface
+        conf.iface = options.interface
     try:
         print('Initiating Search Sniffer...')
         sniff(filter='tcp port 80', prn=getGSS)
